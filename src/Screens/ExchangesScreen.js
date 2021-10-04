@@ -1,7 +1,7 @@
 import React from "react";
 
 function ExchangesScreen() {
-  return <div>curreny screendd</div>;
+  return <div>exchanges</div>;
 }
 
 export default ExchangesScreen;

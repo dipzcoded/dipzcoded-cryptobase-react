@@ -9,6 +9,7 @@ import {
   NewsScreen,
   CryptoDetailsScreen,
 } from "./Screens";
+import { Footer } from "./components/layouts/index";
 
 function MainLayout() {
   return (
@@ -36,8 +37,8 @@ function MainLayout() {
             </Switch>
           </div>
         </Layout>
+        <Footer />
       </div>
-      <div className="footer"></div>
     </div>
   );
 }
